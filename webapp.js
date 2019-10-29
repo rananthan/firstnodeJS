@@ -23,6 +23,7 @@ function showPage(response, pathName)
 	{
 		response.writeHead(404, {'Content-Type' : 'text/html'});
 		response.write('404 Page Not Found');
+		response.write('Try other names')
 		response.end();
 	}
 }
